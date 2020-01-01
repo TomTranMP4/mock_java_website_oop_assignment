@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>oop_assignment</display-name>
+  <welcome-file-list>
+    <welcome-file>default</welcome-file>
+  </welcome-file-list>
+  
+  <!-- DEFAULT SERVLET -->
+  <servlet>
+  	<servlet-name>defaultServlet</servlet-name>
+  	<servlet-class>controller.defaultServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>defaultServlet</servlet-name>
+  	<url-pattern>/default</url-pattern>
+  </servlet-mapping>
+  
+   <!-- LOGIN SERVLET -->
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<servlet-class>controller.loginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <!-- ABOUT SERVLET -->
+  <servlet>
+  	<servlet-name>aboutServlet</servlet-name>
+  	<servlet-class>controller.aboutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>aboutServlet</servlet-name>
+  	<url-pattern>/about</url-pattern>
+  </servlet-mapping>
+  
+  <!-- POST SERVLET -->
+  <servlet>
+  	<servlet-name>postServlet</servlet-name>
+  	<servlet-class>controller.postServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>postServlet</servlet-name>
+  	<url-pattern>/post</url-pattern>
+  </servlet-mapping>
+  
+  <!-- ADDING COMMENT SERVLET -->
+  <servlet>
+  	<servlet-name>addingCommentServlet</servlet-name>
+  	<servlet-class>controller.addingCommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addingCommentServlet</servlet-name>
+  	<url-pattern>/addingComment</url-pattern>
+  </servlet-mapping>
+  
+  <!-- ADMIN PORTAL SERVLET -->
+  <servlet>
+  	<servlet-name>adminPortalServlet</servlet-name>
+  	<servlet-class>controller.adminPortalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>adminPortalServlet</servlet-name>
+  	<url-pattern>/adminPortal</url-pattern>
+  </servlet-mapping>
+  
+  <!-- ALL POST SERVLET -->
+  <servlet>
+  	<servlet-name>allPostServlet</servlet-name>
+  	<servlet-class>controller.allPostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>allPostServlet</servlet-name>
+  	<url-pattern>/allPost</url-pattern>
+  </servlet-mapping>
+  
+  <!-- LOG OUT SERVLET -->
+  <servlet>
+  	<servlet-name>logOutServlet</servlet-name>
+  	<servlet-class>controller.logOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>logOutServlet</servlet-name>
+  	<url-pattern>/logOut</url-pattern>
+  </servlet-mapping>
+  
+   <!-- ADDING NEW POST SERVLET -->
+  <servlet>
+  	<servlet-name>addNewPostServlet</servlet-name>
+  	<servlet-class>controller.addNewPostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addNewPostServlet</servlet-name>
+  	<url-pattern>/addNewPost</url-pattern>
+  </servlet-mapping>
+  
+   <!-- ADDING NEW CATEGORY SERVLET -->
+  <servlet>
+  	<servlet-name>addNewCategoryServlet</servlet-name>
+  	<servlet-class>controller.addNewCategoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addNewCategoryServlet</servlet-name>
+  	<url-pattern>/addNewCategory</url-pattern>
+  </servlet-mapping>
+  
+  <!-- DELETING NEW CATEGORY SERVLET -->
+  <servlet>
+  	<servlet-name>deletingCategoryServlet</servlet-name>
+  	<servlet-class>controller.deletingCategoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deletingCategoryServlet</servlet-name>
+  	<url-pattern>/deletingCategory</url-pattern>
+  </servlet-mapping>
+  
+  <!-- UPDATING POST SERVLET -->
+  <servlet>
+  	<servlet-name>updatePostServlet</servlet-name>
+  	<servlet-class>controller.updatePostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>updatePostServlet</servlet-name>
+  	<url-pattern>/updatePost</url-pattern>
+  </servlet-mapping>
+  
+  <!-- DELETING POST SERVLET -->
+  <servlet>
+  	<servlet-name>deletingPostServlet</servlet-name>
+  	<servlet-class>controller.deletingPostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deletingPostServlet</servlet-name>
+  	<url-pattern>/deletingPost</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
